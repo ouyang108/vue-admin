@@ -10,7 +10,7 @@ const change = () => {};
       target="_blank"
       style="display: flex; align-items: center"
     >
-      <el-button>按钮123</el-button>
+      <el-button>按钮</el-button>
       <img src="/vite.svg" class="logo" alt="Vite logo" />
     </a>
     <div class="cc" @click="change">123</div>
