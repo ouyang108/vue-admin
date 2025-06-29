@@ -37,6 +37,13 @@ export default ({ mode }: { mode: string }) => {
         "@": resolve(__dirname, "src"),
       },
     },
+    css: {
+      preprocessorOptions: {
+        scss: {
+          additionalData: `@use "@/styles/global.scss" as *;`, // 使用 as * 来避免命名空间
+        },
+      },
+    },
     build: {
       minify: "terser",
       terserOptions: {

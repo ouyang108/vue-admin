@@ -1,0 +1,17 @@
+@mixin cursor($type: pointer) {
+  cursor: $type;
+}
+
+@mixin flex($algin: center, $justify: center) {
+  display: flex;
+  align-items: $algin;
+  justify-content: $justify;
+}
+
+@mixin boxShadow($width: 0, $height: 0, $radius: 10px) {
+  box-shadow: $width $height $radius #0003;
+}
+
+@mixin Height($height: 100%) {
+  height: $height;
+}

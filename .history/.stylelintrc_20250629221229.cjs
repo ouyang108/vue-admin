@@ -6,7 +6,6 @@ module.exports = {
   ],
   plugins: ["stylelint-scss", "stylelint-order"],
   rules: {
-    "scss/at-mixin-pattern": null, // 关闭 mixin 命名检查
     "no-irregular-whitespace": true,
     // 指定样式的排序
     "order/properties-order": [

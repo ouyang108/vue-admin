@@ -3,7 +3,7 @@ import globals from "globals";
 import tseslint from "typescript-eslint";
 import pluginVue from "eslint-plugin-vue";
 import { defineConfig } from "eslint/config";
-import autoImportConfig from "./.eslintrc-auto-import.json";
+// import autoImportConfig from "./.eslintrc-auto-import.json";
 
 export default defineConfig([
   {
@@ -17,7 +17,7 @@ export default defineConfig([
       globals: {
         ...globals.browser,
         ...globals.node,
-        ...autoImportConfig,
+        // ...autoImportConfig,
       },
     },
   },
@@ -26,7 +26,7 @@ export default defineConfig([
   {
     files: ["**/*.vue"],
     languageOptions: { parserOptions: { parser: tseslint.parser } },
-    ignores: ["dist/**", "node_modules/**", "**/*.d.ts"],
+    ignores: ["dist/**", "node_modules/**", "**/*.d.ts", ".history/**"],
   },
   {
     rules: {
