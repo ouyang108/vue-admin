@@ -9,7 +9,13 @@
     </el-container>
   </div>
 </template>
-<script setup></script>
+<script setup>
+const a = 10;
+const handle = () => {
+  console.log("123");
+};
+const d = 20;
+</script>
 <style lang="scss" scoped>
 .common-layout {
   height: 100%;
