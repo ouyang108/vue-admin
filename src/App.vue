@@ -6,4 +6,6 @@
 
 <script setup lang="ts">
 import zhCn from "element-plus/es/locale/lang/zh-cn";
+const a = 10;
+console.log(a);
 </script>
