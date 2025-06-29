@@ -14,7 +14,7 @@
 </template>
 <script setup lang="ts">
 import RecursiveMenuItem from "./RecursiveMenuItem.vue";
-const a = 10;
+
 // 菜单数据类型定义
 interface MenuItem {
   id: string;
