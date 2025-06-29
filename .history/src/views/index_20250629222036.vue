@@ -11,9 +11,6 @@
 </template>
 <script setup>
 const a = 10;
-const handle = () => {
-  console.log("123");
-};
 </script>
 <style lang="scss" scoped>
 .common-layout {
